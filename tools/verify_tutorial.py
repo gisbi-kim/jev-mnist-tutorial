@@ -71,5 +71,6 @@ for name in ['adapter_model.safetensors','joint_head.safetensors']:
     tensors=[v for k,v in header.items() if k!='__metadata__']
     params[name]={'tensors':len(tensors),'parameters':sum(math.prod(v['shape']) for v in tensors),'dtypes':dict(collections.Counter(v['dtype'] for v in tensors))}
 result={'passed':True,'recorded_batches':batches,'sample_exposures':samples,'test_images':len(records),'test_decisions':10000,'recomputed_action_errors':wrong,'recomputed_episode_failures':failed,'recomputed_failure_reasons':dict(reasons),'heatmap_cells_verified':100,'training_exports_equal_raw':True,'english_main_inputs_verified':True,'static_links_verified':len(parser.links),'saved_parameter_inventory':params}
-(ROOT/'docs/data-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+if '--write-report' in sys.argv:
+    (ROOT/'docs/data-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(result,ensure_ascii=False,indent=2))

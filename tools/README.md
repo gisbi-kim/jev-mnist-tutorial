@@ -1,6 +1,6 @@
 # 공개판 도구
 
-- `verify_tutorial.py`: 원자료와 배치 export, 테스트 rollout 및 정적 링크 검증. 저장소 위치를 자동으로 찾는다.
+- `verify_tutorial.py`: 원자료와 배치 export, 테스트 rollout 및 정적 링크 검증. 저장소 위치를 자동으로 찾고 기본 실행에서는 파일을 수정하지 않는다. 보고서를 갱신할 때만 `--write-report`를 지정하고 manifest도 갱신한다.
 - `verify_publication.py`: 현재 manifest, 압축 데이터, 공개 파일 링크 검증.
 - `restore_data.py`: 세 JSONL을 원본 SHA-256으로 확인하며 복원.
 - `prepare_workspace.py`: 새 디렉터리에 코드·MNIST 배열·최종 모델 복사.

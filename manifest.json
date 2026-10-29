@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-29T17:44:15.956496+00:00",
+  "created_utc": "2026-10-29T17:46:43.766010+00:00",
   "scope": "GitHub publication: final model only, historical logs preserved",
   "files": [
     {
@@ -20049,8 +20049,8 @@
     },
     {
       "path": "tools/README.md",
-      "bytes": 1961,
-      "sha256": "3a37105b53869daba8d921bdef1bf32afdf32e5b4c154293cc0b5e978b7beeb2"
+      "bytes": 2103,
+      "sha256": "f174427cda24f72b9bc1e9d31c64e386644aa4c06026d3715417b1c46f441149"
     },
     {
       "path": "tools/restore_data.py",
@@ -20069,11 +20069,11 @@
     },
     {
       "path": "tools/verify_tutorial.py",
-      "bytes": 4747,
-      "sha256": "11a965ef9f5ab5d1e5ea09fbc571ebd79009dee01a658e9824e9bc3704cbc7ab"
+      "bytes": 4785,
+      "sha256": "4158526b82d783461c3cc3a14cf5b11c2c63dd3679d88ac8433465b4c0cac8de"
     }
   ],
   "file_count": 4014,
-  "total_bytes": 199145850,
+  "total_bytes": 199146030,
   "note": "Manifest and SHA256SUMS exclude themselves. SHA256SUMS additionally hashes manifest.json."
 }
