@@ -1,0 +1,23 @@
+{
+  "kind": "memorization_diagnostic",
+  "input_language": "en",
+  "steps": 300,
+  "batch_size": 30,
+  "grad_accum": 1,
+  "train_images": 3,
+  "train_image_ids": [
+    59004,
+    55513,
+    8242
+  ],
+  "validation_image_ids": [
+    28685,
+    2946,
+    33557
+  ],
+  "balanced_training_rows": 30,
+  "learning_rate": 0.0002,
+  "head_learning_rate": 0.001,
+  "trace_batches": true,
+  "note": "30 exact training pairs. Train-set memorization is not generalization. Full batch; no duplicated rows just to consume memory."
+}

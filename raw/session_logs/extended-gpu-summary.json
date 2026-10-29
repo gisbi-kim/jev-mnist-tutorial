@@ -1,0 +1,8 @@
+{
+  "exit_code": 0,
+  "sample_interval_seconds": 2,
+  "peak_device_used_mib": 2044.0,
+  "peak_device_used_training_phase_mib": 2044.0,
+  "note": "Whole GPU memory sampled every two seconds; includes driver and other processes.",
+  "log": "C:\\Users\\USER\\Downloads\\mnist-decision-lab\\extended-train.log"
+}

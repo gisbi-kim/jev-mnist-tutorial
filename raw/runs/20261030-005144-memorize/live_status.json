@@ -1,0 +1,4 @@
+{
+  "phase": "failed",
+  "error": "Stopped probe: explicit BF16 autocast was missing in manual benchmark; replaced by corrected run."
+}

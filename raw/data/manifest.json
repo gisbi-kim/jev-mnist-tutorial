@@ -1,0 +1,17 @@
+{
+  "source": "Original MNIST via PyTorch OSSCI mirror",
+  "seed": 3407,
+  "images": {
+    "train": 55000,
+    "validation": 5000,
+    "test": 10000
+  },
+  "decision_rows": {
+    "train": 550000,
+    "validation": 50000,
+    "test": 100000
+  },
+  "split_rule": "Image-disjoint: 500 per digit held out from original train; official test untouched.",
+  "note": "Language variants increase rows, not independent handwriting diversity.",
+  "input_language": "en"
+}

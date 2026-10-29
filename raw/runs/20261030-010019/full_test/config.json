@@ -1,0 +1,13 @@
+{
+  "checkpoint": "C:\\Users\\USER\\Downloads\\mnist-decision-lab\\runs\\20261030-010019\\adapter",
+  "test_images": 1000,
+  "decisions": 10000,
+  "batch_size": 32,
+  "input_language": "en",
+  "state_template": "The current number is {current}.",
+  "note": "Reloaded saved calibrated model. All official test IDs, no fitting or model selection. Previously inspected 100 test images are included.",
+  "test_id_range": [
+    0,
+    999
+  ]
+}

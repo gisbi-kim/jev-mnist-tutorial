@@ -1,0 +1,979 @@
+{
+  "batch_count": 96,
+  "batch_sweep": [],
+  "benchmark": {
+    "batch_size": 1,
+    "effective_batch": 8,
+    "grad_accum": 8,
+    "optimizer_steps": 12,
+    "steady_examples_per_second": 3.200860890746156,
+    "steady_seconds_per_update": 2.499327609996544,
+    "step_seconds": [
+      8.338995600002818,
+      2.628377899993211,
+      2.5125107999774627,
+      2.4997634000028484,
+      2.506275399995502,
+      2.474624099995708,
+      2.5279604999814183,
+      2.448613100015791,
+      2.5207826000114437,
+      2.4822149999963585,
+      2.498161600000458,
+      2.5223695999884512
+    ],
+    "telemetry_enabled": true,
+    "training_metrics": {
+      "epoch": 0.13114754098360656,
+      "total_flos": 0.0,
+      "train_loss": 1.112984150648117,
+      "train_runtime": 36.2349,
+      "train_samples_per_second": 2.649,
+      "train_steps_per_second": 0.331
+    },
+    "warmup_steps_excluded": 2
+  },
+  "config": {
+    "balanced_training_rows": 732,
+    "batch_size": 1,
+    "compile_disabled": "1",
+    "grad_accum": 8,
+    "kind": "batch_benchmark",
+    "model": "unsloth/Qwen3.5-0.8B",
+    "order": "identical seeded rows; sequential sampler; effective batch 8",
+    "steps": 12,
+    "trace_batches": true,
+    "train_image_ids": [
+      8242,
+      59004,
+      18216,
+      46738,
+      13002,
+      51591,
+      52543,
+      33701,
+      28250,
+      16436,
+      48179,
+      39463,
+      32867,
+      21628,
+      19198,
+      4814,
+      35416,
+      30967,
+      38070,
+      34708,
+      55513,
+      46674,
+      1618,
+      29630,
+      3826,
+      4092,
+      55754,
+      45887,
+      17974,
+      12190,
+      58945,
+      14426,
+      857,
+      19116,
+      29388,
+      19791,
+      44822,
+      53198,
+      41309,
+      21232,
+      37854,
+      7538,
+      18210,
+      48451,
+      23163,
+      12680,
+      42659,
+      30855,
+      37326,
+      56653
+    ],
+    "train_images": 50
+  },
+  "curve": [
+    {
+      "batch_size": 1,
+      "examples_seen": 1,
+      "gpu_allocated_mib": 1301.95166015625,
+      "loss": 1.0632390975952148,
+      "microbatch": 1,
+      "optimizer_step": 1
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 2,
+      "gpu_allocated_mib": 1481.4560546875,
+      "loss": 1.105184555053711,
+      "microbatch": 2,
+      "optimizer_step": 1
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 3,
+      "gpu_allocated_mib": 1481.2998046875,
+      "loss": 1.1254802942276,
+      "microbatch": 3,
+      "optimizer_step": 1
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 4,
+      "gpu_allocated_mib": 1481.3515625,
+      "loss": 1.1109471321105957,
+      "microbatch": 4,
+      "optimizer_step": 1
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 5,
+      "gpu_allocated_mib": 1481.4560546875,
+      "loss": 1.1254727840423584,
+      "microbatch": 5,
+      "optimizer_step": 1
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 6,
+      "gpu_allocated_mib": 1481.3515625,
+      "loss": 1.0610411167144775,
+      "microbatch": 6,
+      "optimizer_step": 1
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 7,
+      "gpu_allocated_mib": 1481.2998046875,
+      "loss": 1.125783085823059,
+      "microbatch": 7,
+      "optimizer_step": 1
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 8,
+      "gpu_allocated_mib": 1481.4560546875,
+      "loss": 1.1256084442138672,
+      "microbatch": 8,
+      "optimizer_step": 1
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 9,
+      "gpu_allocated_mib": 1631.24072265625,
+      "loss": 1.2620093822479248,
+      "microbatch": 9,
+      "optimizer_step": 2
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 10,
+      "gpu_allocated_mib": 1781.74462890625,
+      "loss": 0.8606318235397339,
+      "microbatch": 10,
+      "optimizer_step": 2
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 11,
+      "gpu_allocated_mib": 1781.58837890625,
+      "loss": 0.8626992702484131,
+      "microbatch": 11,
+      "optimizer_step": 2
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 12,
+      "gpu_allocated_mib": 1781.74462890625,
+      "loss": 1.2630589008331299,
+      "microbatch": 12,
+      "optimizer_step": 2
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 13,
+      "gpu_allocated_mib": 1781.74462890625,
+      "loss": 1.2623857259750366,
+      "microbatch": 13,
+      "optimizer_step": 2
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 14,
+      "gpu_allocated_mib": 1781.64013671875,
+      "loss": 1.2240958213806152,
+      "microbatch": 14,
+      "optimizer_step": 2
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 15,
+      "gpu_allocated_mib": 1781.64013671875,
+      "loss": 0.8637607097625732,
+      "microbatch": 15,
+      "optimizer_step": 2
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 16,
+      "gpu_allocated_mib": 1781.58837890625,
+      "loss": 0.8537323474884033,
+      "microbatch": 16,
+      "optimizer_step": 2
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 17,
+      "gpu_allocated_mib": 1629.72119140625,
+      "loss": 0.719411313533783,
+      "microbatch": 17,
+      "optimizer_step": 3
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 18,
+      "gpu_allocated_mib": 1776.64013671875,
+      "loss": 1.51263427734375,
+      "microbatch": 18,
+      "optimizer_step": 3
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 19,
+      "gpu_allocated_mib": 1776.74462890625,
+      "loss": 1.500542402267456,
+      "microbatch": 19,
+      "optimizer_step": 3
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 20,
+      "gpu_allocated_mib": 1776.64013671875,
+      "loss": 0.7300765514373779,
+      "microbatch": 20,
+      "optimizer_step": 3
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 21,
+      "gpu_allocated_mib": 1776.64013671875,
+      "loss": 1.2302331924438477,
+      "microbatch": 21,
+      "optimizer_step": 3
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 22,
+      "gpu_allocated_mib": 1776.64013671875,
+      "loss": 1.2202255725860596,
+      "microbatch": 22,
+      "optimizer_step": 3
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 23,
+      "gpu_allocated_mib": 1776.58837890625,
+      "loss": 0.7365715503692627,
+      "microbatch": 23,
+      "optimizer_step": 3
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 24,
+      "gpu_allocated_mib": 1776.74462890625,
+      "loss": 0.743104100227356,
+      "microbatch": 24,
+      "optimizer_step": 3
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 25,
+      "gpu_allocated_mib": 1630.12841796875,
+      "loss": 1.2604115009307861,
+      "microbatch": 25,
+      "optimizer_step": 4
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 26,
+      "gpu_allocated_mib": 1779.23291015625,
+      "loss": 0.6616306304931641,
+      "microbatch": 26,
+      "optimizer_step": 4
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 27,
+      "gpu_allocated_mib": 1779.58837890625,
+      "loss": 0.6536393761634827,
+      "microbatch": 27,
+      "optimizer_step": 4
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 28,
+      "gpu_allocated_mib": 1779.23291015625,
+      "loss": 1.2521876096725464,
+      "microbatch": 28,
+      "optimizer_step": 4
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 29,
+      "gpu_allocated_mib": 1779.23291015625,
+      "loss": 0.6644171476364136,
+      "microbatch": 29,
+      "optimizer_step": 4
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 30,
+      "gpu_allocated_mib": 1779.58837890625,
+      "loss": 0.6500146985054016,
+      "microbatch": 30,
+      "optimizer_step": 4
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 31,
+      "gpu_allocated_mib": 1779.58837890625,
+      "loss": 1.2672438621520996,
+      "microbatch": 31,
+      "optimizer_step": 4
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 32,
+      "gpu_allocated_mib": 1779.23291015625,
+      "loss": 0.6618239879608154,
+      "microbatch": 32,
+      "optimizer_step": 4
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 33,
+      "gpu_allocated_mib": 1630.56494140625,
+      "loss": 2.1478588581085205,
+      "microbatch": 33,
+      "optimizer_step": 5
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 34,
+      "gpu_allocated_mib": 1777.58837890625,
+      "loss": 2.131490468978882,
+      "microbatch": 34,
+      "optimizer_step": 5
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 35,
+      "gpu_allocated_mib": 1777.74462890625,
+      "loss": 1.3755640983581543,
+      "microbatch": 35,
+      "optimizer_step": 5
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 36,
+      "gpu_allocated_mib": 1777.74462890625,
+      "loss": 1.3752641677856445,
+      "microbatch": 36,
+      "optimizer_step": 5
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 37,
+      "gpu_allocated_mib": 1777.64013671875,
+      "loss": 0.4661247134208679,
+      "microbatch": 37,
+      "optimizer_step": 5
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 38,
+      "gpu_allocated_mib": 1777.74462890625,
+      "loss": 0.45847266912460327,
+      "microbatch": 38,
+      "optimizer_step": 5
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 39,
+      "gpu_allocated_mib": 1777.58837890625,
+      "loss": 1.385372519493103,
+      "microbatch": 39,
+      "optimizer_step": 5
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 40,
+      "gpu_allocated_mib": 1777.74462890625,
+      "loss": 0.4579051434993744,
+      "microbatch": 40,
+      "optimizer_step": 5
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 41,
+      "gpu_allocated_mib": 1630.07275390625,
+      "loss": 2.0726940631866455,
+      "microbatch": 41,
+      "optimizer_step": 6
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 42,
+      "gpu_allocated_mib": 1779.59619140625,
+      "loss": 2.072181224822998,
+      "microbatch": 42,
+      "optimizer_step": 6
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 43,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.5620788335800171,
+      "microbatch": 43,
+      "optimizer_step": 6
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 44,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 2.1024410724639893,
+      "microbatch": 44,
+      "optimizer_step": 6
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 45,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 0.5745229721069336,
+      "microbatch": 45,
+      "optimizer_step": 6
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 46,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 0.5757685303688049,
+      "microbatch": 46,
+      "optimizer_step": 6
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 47,
+      "gpu_allocated_mib": 1779.59619140625,
+      "loss": 2.090106248855591,
+      "microbatch": 47,
+      "optimizer_step": 6
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 48,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 2.1031525135040283,
+      "microbatch": 48,
+      "optimizer_step": 6
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 49,
+      "gpu_allocated_mib": 1629.56494140625,
+      "loss": 1.0936827659606934,
+      "microbatch": 49,
+      "optimizer_step": 7
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 50,
+      "gpu_allocated_mib": 1775.74462890625,
+      "loss": 1.0829026699066162,
+      "microbatch": 50,
+      "optimizer_step": 7
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 51,
+      "gpu_allocated_mib": 1775.64013671875,
+      "loss": 1.0845403671264648,
+      "microbatch": 51,
+      "optimizer_step": 7
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 52,
+      "gpu_allocated_mib": 1775.58837890625,
+      "loss": 1.7775218486785889,
+      "microbatch": 52,
+      "optimizer_step": 7
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 53,
+      "gpu_allocated_mib": 1775.64013671875,
+      "loss": 0.7102428674697876,
+      "microbatch": 53,
+      "optimizer_step": 7
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 54,
+      "gpu_allocated_mib": 1775.64013671875,
+      "loss": 1.079909086227417,
+      "microbatch": 54,
+      "optimizer_step": 7
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 55,
+      "gpu_allocated_mib": 1775.74462890625,
+      "loss": 0.6993096470832825,
+      "microbatch": 55,
+      "optimizer_step": 7
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 56,
+      "gpu_allocated_mib": 1775.64013671875,
+      "loss": 1.7627553939819336,
+      "microbatch": 56,
+      "optimizer_step": 7
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 57,
+      "gpu_allocated_mib": 1630.12841796875,
+      "loss": 1.0312674045562744,
+      "microbatch": 57,
+      "optimizer_step": 8
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 58,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 0.863642692565918,
+      "microbatch": 58,
+      "optimizer_step": 8
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 59,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.8506157398223877,
+      "microbatch": 59,
+      "optimizer_step": 8
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 60,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 1.525083303451538,
+      "microbatch": 60,
+      "optimizer_step": 8
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 61,
+      "gpu_allocated_mib": 1779.59619140625,
+      "loss": 0.8513468503952026,
+      "microbatch": 61,
+      "optimizer_step": 8
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 62,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 1.0243229866027832,
+      "microbatch": 62,
+      "optimizer_step": 8
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 63,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 1.0242027044296265,
+      "microbatch": 63,
+      "optimizer_step": 8
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 64,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 0.8602216839790344,
+      "microbatch": 64,
+      "optimizer_step": 8
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 65,
+      "gpu_allocated_mib": 1629.72119140625,
+      "loss": 1.0079275369644165,
+      "microbatch": 65,
+      "optimizer_step": 9
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 66,
+      "gpu_allocated_mib": 1775.74462890625,
+      "loss": 0.905520498752594,
+      "microbatch": 66,
+      "optimizer_step": 9
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 67,
+      "gpu_allocated_mib": 1775.58837890625,
+      "loss": 1.4532194137573242,
+      "microbatch": 67,
+      "optimizer_step": 9
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 68,
+      "gpu_allocated_mib": 1775.64013671875,
+      "loss": 1.0093486309051514,
+      "microbatch": 68,
+      "optimizer_step": 9
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 69,
+      "gpu_allocated_mib": 1775.74462890625,
+      "loss": 1.4539543390274048,
+      "microbatch": 69,
+      "optimizer_step": 9
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 70,
+      "gpu_allocated_mib": 1775.74462890625,
+      "loss": 0.906773567199707,
+      "microbatch": 70,
+      "optimizer_step": 9
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 71,
+      "gpu_allocated_mib": 1775.58837890625,
+      "loss": 1.0129077434539795,
+      "microbatch": 71,
+      "optimizer_step": 9
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 72,
+      "gpu_allocated_mib": 1775.58837890625,
+      "loss": 1.0140440464019775,
+      "microbatch": 72,
+      "optimizer_step": 9
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 73,
+      "gpu_allocated_mib": 1630.24072265625,
+      "loss": 0.9487457275390625,
+      "microbatch": 73,
+      "optimizer_step": 10
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 74,
+      "gpu_allocated_mib": 1779.59619140625,
+      "loss": 0.9515506029129028,
+      "microbatch": 74,
+      "optimizer_step": 10
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 75,
+      "gpu_allocated_mib": 1779.59619140625,
+      "loss": 0.9961724281311035,
+      "microbatch": 75,
+      "optimizer_step": 10
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 76,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 0.9635112285614014,
+      "microbatch": 76,
+      "optimizer_step": 10
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 77,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.9929677844047546,
+      "microbatch": 77,
+      "optimizer_step": 10
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 78,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.9949390888214111,
+      "microbatch": 78,
+      "optimizer_step": 10
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 79,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.9954362511634827,
+      "microbatch": 79,
+      "optimizer_step": 10
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 80,
+      "gpu_allocated_mib": 1779.59619140625,
+      "loss": 0.9956028461456299,
+      "microbatch": 80,
+      "optimizer_step": 10
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 81,
+      "gpu_allocated_mib": 1629.61669921875,
+      "loss": 1.3975324630737305,
+      "microbatch": 81,
+      "optimizer_step": 11
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 82,
+      "gpu_allocated_mib": 1775.74462890625,
+      "loss": 0.970463752746582,
+      "microbatch": 82,
+      "optimizer_step": 11
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 83,
+      "gpu_allocated_mib": 1775.58837890625,
+      "loss": 0.973851203918457,
+      "microbatch": 83,
+      "optimizer_step": 11
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 84,
+      "gpu_allocated_mib": 1775.64013671875,
+      "loss": 0.9660662412643433,
+      "microbatch": 84,
+      "optimizer_step": 11
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 85,
+      "gpu_allocated_mib": 1775.74462890625,
+      "loss": 1.4035348892211914,
+      "microbatch": 85,
+      "optimizer_step": 11
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 86,
+      "gpu_allocated_mib": 1775.64013671875,
+      "loss": 0.9664061665534973,
+      "microbatch": 86,
+      "optimizer_step": 11
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 87,
+      "gpu_allocated_mib": 1775.64013671875,
+      "loss": 1.4004056453704834,
+      "microbatch": 87,
+      "optimizer_step": 11
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 88,
+      "gpu_allocated_mib": 1775.58837890625,
+      "loss": 0.9693912863731384,
+      "microbatch": 88,
+      "optimizer_step": 11
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 89,
+      "gpu_allocated_mib": 1630.12841796875,
+      "loss": 1.3873693943023682,
+      "microbatch": 89,
+      "optimizer_step": 12
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 90,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 1.4011317491531372,
+      "microbatch": 90,
+      "optimizer_step": 12
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 91,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 1.0062345266342163,
+      "microbatch": 91,
+      "optimizer_step": 12
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 92,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.9944155216217041,
+      "microbatch": 92,
+      "optimizer_step": 12
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 93,
+      "gpu_allocated_mib": 1779.65185546875,
+      "loss": 1.3885705471038818,
+      "microbatch": 93,
+      "optimizer_step": 12
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 94,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.9969503283500671,
+      "microbatch": 94,
+      "optimizer_step": 12
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 95,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.9957077503204346,
+      "microbatch": 95,
+      "optimizer_step": 12
+    },
+    {
+      "batch_size": 1,
+      "examples_seen": 96,
+      "gpu_allocated_mib": 1779.76416015625,
+      "loss": 0.9939619898796082,
+      "microbatch": 96,
+      "optimizer_step": 12
+    }
+  ],
+  "diagnosis": null,
+  "gpu": {
+    "allocated_bytes": 1906906624,
+    "reserved_bytes": 1935671296
+  },
+  "logs": [
+    {
+      "epoch": 0.01092896174863388,
+      "grad_norm": 0.6988270878791809,
+      "learning_rate": 0.0002,
+      "loss": 1.105344533920288,
+      "step": 1
+    },
+    {
+      "epoch": 0.02185792349726776,
+      "grad_norm": 0.6005517244338989,
+      "learning_rate": 0.00018333333333333334,
+      "loss": 1.056546688079834,
+      "step": 2
+    },
+    {
+      "epoch": 0.03278688524590164,
+      "grad_norm": 0.23246781527996063,
+      "learning_rate": 0.0001666666666666667,
+      "loss": 1.0490998029708862,
+      "step": 3
+    },
+    {
+      "epoch": 0.04371584699453552,
+      "grad_norm": 1.102838397026062,
+      "learning_rate": 0.00015000000000000001,
+      "loss": 0.8839211463928223,
+      "step": 4
+    },
+    {
+      "epoch": 0.0546448087431694,
+      "grad_norm": 2.5073726177215576,
+      "learning_rate": 0.00013333333333333334,
+      "loss": 1.2247564792633057,
+      "step": 5
+    },
+    {
+      "epoch": 0.06557377049180328,
+      "grad_norm": 4.284620761871338,
+      "learning_rate": 0.00011666666666666668,
+      "loss": 1.5191181898117065,
+      "step": 6
+    },
+    {
+      "epoch": 0.07650273224043716,
+      "grad_norm": 1.5168501138687134,
+      "learning_rate": 0.0001,
+      "loss": 1.161358118057251,
+      "step": 7
+    },
+    {
+      "epoch": 0.08743169398907104,
+      "grad_norm": 0.6073177456855774,
+      "learning_rate": 8.333333333333334e-05,
+      "loss": 1.0038379430770874,
+      "step": 8
+    },
+    {
+      "epoch": 0.09836065573770492,
+      "grad_norm": 0.545177698135376,
+      "learning_rate": 6.666666666666667e-05,
+      "loss": 1.0954619646072388,
+      "step": 9
+    },
+    {
+      "epoch": 0.1092896174863388,
+      "grad_norm": 1.0375539064407349,
+      "learning_rate": 5e-05,
+      "loss": 0.9798657894134521,
+      "step": 10
+    },
+    {
+      "epoch": 0.12021857923497267,
+      "grad_norm": 0.9100940823554993,
+      "learning_rate": 3.3333333333333335e-05,
+      "loss": 1.1309564113616943,
+      "step": 11
+    },
+    {
+      "epoch": 0.13114754098360656,
+      "grad_norm": 0.8942009806632996,
+      "learning_rate": 1.6666666666666667e-05,
+      "loss": 1.1455427408218384,
+      "step": 12
+    },
+    {
+      "epoch": 0.13114754098360656,
+      "step": 12,
+      "total_flos": 0.0,
+      "train_loss": 1.112984150648117,
+      "train_runtime": 36.2349,
+      "train_samples_per_second": 2.649,
+      "train_steps_per_second": 0.331
+    }
+  ],
+  "memorization": [],
+  "report": null,
+  "run": "20261030-004047-batch1",
+  "status": {
+    "phase": "complete",
+    "step": 12
+  },
+  "trace_note": "실제 학습 forward에서 기록한 배치입니다. 확률은 보정 전 softmax입니다.",
+  "validation": []
+}

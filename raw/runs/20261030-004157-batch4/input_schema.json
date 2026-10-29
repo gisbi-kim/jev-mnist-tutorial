@@ -1,0 +1,15 @@
+{
+  "questions": {
+    "move": {
+      "type": "choice",
+      "instructions": "Read the handwritten target digit in the image. Choose exactly one operation that moves the current number toward it. Choose 0 only when equal.",
+      "criteria": {
+        "-1": "Subtract one from the current number.",
+        "0": "Keep the current number and STOP: already equal to the image digit.",
+        "+1": "Add one to the current number."
+      }
+    }
+  },
+  "provenance": "historical_state_logged_questions_reconstructed",
+  "note": "Questions were not captured per batch. Reconstructed from the unchanged core.questions used by these verified runs; state and predictions remain original recorded values."
+}

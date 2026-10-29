@@ -1,0 +1,81 @@
+{
+  "benchmarks": [
+    {
+      "run": "20261030-004047-batch1",
+      "batch_size": 1,
+      "grad_accum": 8,
+      "effective_batch": 8,
+      "optimizer_steps": 12,
+      "warmup_steps_excluded": 2,
+      "step_seconds": [
+        8.338995600002818,
+        2.628377899993211,
+        2.5125107999774627,
+        2.4997634000028484,
+        2.506275399995502,
+        2.474624099995708,
+        2.5279604999814183,
+        2.448613100015791,
+        2.5207826000114437,
+        2.4822149999963585,
+        2.498161600000458,
+        2.5223695999884512
+      ],
+      "steady_seconds_per_update": 2.499327609996544,
+      "steady_examples_per_second": 3.200860890746156,
+      "training_metrics": {
+        "train_runtime": 36.2349,
+        "train_samples_per_second": 2.649,
+        "train_steps_per_second": 0.331,
+        "total_flos": 0.0,
+        "train_loss": 1.112984150648117,
+        "epoch": 0.13114754098360656
+      },
+      "telemetry_enabled": true,
+      "gpu": {
+        "allocated_bytes": 1906906624,
+        "reserved_bytes": 1935671296
+      }
+    },
+    {
+      "run": "20261030-004157-batch4",
+      "batch_size": 4,
+      "grad_accum": 2,
+      "effective_batch": 8,
+      "optimizer_steps": 12,
+      "warmup_steps_excluded": 2,
+      "step_seconds": [
+        6.6799734000233,
+        0.6420122999988962,
+        0.5826147999905515,
+        0.5710226999945007,
+        0.5856999999959953,
+        0.5657617999822833,
+        0.5916133999999147,
+        0.5703411999857053,
+        0.6286706000100821,
+        0.6511870000103954,
+        0.6596747000003234,
+        0.6458616000018083
+      ],
+      "steady_seconds_per_update": 0.605244779997156,
+      "steady_examples_per_second": 13.217792642569492,
+      "training_metrics": {
+        "train_runtime": 13.6418,
+        "train_samples_per_second": 7.037,
+        "train_steps_per_second": 0.88,
+        "total_flos": 0.0,
+        "train_loss": 1.1133045852184296,
+        "epoch": 0.13114754098360656
+      },
+      "telemetry_enabled": true,
+      "gpu": {
+        "allocated_bytes": 1979319296,
+        "reserved_bytes": 2059403264
+      }
+    }
+  ],
+  "same_order_and_effective_batch_verified": true,
+  "speedup": 4.129449261847889,
+  "limitations": "12 updates per setting; first 2 excluded; telemetry on; specific to this short-input dataset and current Windows GPU stack."
+}

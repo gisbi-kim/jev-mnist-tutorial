@@ -1,0 +1,17 @@
+{
+  "python": "3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "unsloth": "2026.10.10",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.17.0",
+    "peft": "0.21.2",
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "Flask": "3.1.3"
+  },
+  "backbone_cached_revisions": [
+    "23c69c53358a07516b5827588b3fdb12ae78fd65"
+  ],
+  "provenance": "Observed installed environment at packaging time; run lock files are historical authority. Cached revision is observed, not explicitly pinned by original CLI."
+}

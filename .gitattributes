@@ -1,0 +1,7 @@
+* -text
+*.safetensors binary
+*.png binary
+*.jpg binary
+*.gz binary
+*.npz binary
+*.bin binary

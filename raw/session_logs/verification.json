@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-29",
+  "unit_api_tests_passed": 11,
+  "python_compile": "passed",
+  "javascript_syntax": "passed",
+  "powershell_setup_syntax": "passed",
+  "browser_qa": "blocked: local HTTP access denied, browser timed out",
+  "mnist_download": "not completed: network unavailable",
+  "unsloth_training": "not run: dependencies absent and download unavailable",
+  "model_evaluation": "not run",
+  "downloads_folder": "not created: outside writable roots",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU, 12227 MiB"
+}

@@ -1,0 +1,59 @@
+{
+  "input_ids": {
+    "shape": [
+      3,
+      261
+    ],
+    "dtype": "torch.int64"
+  },
+  "attention_mask": {
+    "shape": [
+      3,
+      261
+    ],
+    "dtype": "torch.int64"
+  },
+  "pixel_values": {
+    "shape": [
+      768,
+      1536
+    ],
+    "dtype": "torch.float32"
+  },
+  "image_grid_thw": {
+    "shape": [
+      3,
+      3
+    ],
+    "dtype": "torch.int64"
+  },
+  "mm_token_type_ids": {
+    "shape": [
+      3,
+      261
+    ],
+    "dtype": "torch.int64"
+  },
+  "marker_mask": {
+    "shape": [
+      3,
+      3
+    ],
+    "dtype": "torch.bool"
+  },
+  "target": {
+    "shape": [
+      3,
+      3
+    ],
+    "dtype": "torch.float32"
+  },
+  "ordinal": {
+    "shape": [
+      3
+    ],
+    "dtype": "torch.bool"
+  },
+  "token_difference_state": true,
+  "row_count": 30
+}

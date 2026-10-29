@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.cache/
+_site/
+workspaces/
+raw/data/*.jsonl

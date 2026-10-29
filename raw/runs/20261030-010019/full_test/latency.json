@@ -1,0 +1,73 @@
+{
+  "single_predict": {
+    "repeats": 100,
+    "decisions_per_call": 1,
+    "mean_ms": 94.02698800142389,
+    "p50_ms": 93.32705000997521,
+    "p95_ms": 97.9716500165523,
+    "min_ms": 88.19979999680072,
+    "max_ms": 133.0039000022225,
+    "decisions_per_second": 10.635244425620192
+  },
+  "notes": [
+    "Model loading and disk IO excluded. CUDA synchronized. English state; calibrated saved model.",
+    "Single predict includes processor/tokenization and public API output conversion; images preloaded and resized.",
+    "Batch logits includes collation/transfers/model forward; encoding excluded. Batch pipeline includes image resize, encoding and batched logits.",
+    "Five warmup calls before each mode. Repeated fixed batch for batch timings; not application concurrency or cold-start latency."
+  ],
+  "batch_1": {
+    "repeats": 20,
+    "decisions_per_call": 1,
+    "mean_ms": 92.6835599981132,
+    "p50_ms": 92.93325000908226,
+    "p95_ms": 96.64415498700691,
+    "min_ms": 88.05869999923743,
+    "max_ms": 96.76680000848137,
+    "decisions_per_second": 10.789399975792444,
+    "peak_allocated_bytes": 1378643456
+  },
+  "batch_8": {
+    "repeats": 20,
+    "decisions_per_call": 8,
+    "mean_ms": 166.71457000338705,
+    "p50_ms": 164.59089999261778,
+    "p95_ms": 187.10313998599304,
+    "min_ms": 157.96680000494234,
+    "max_ms": 189.47700000717305,
+    "decisions_per_second": 47.98620780317802,
+    "peak_allocated_bytes": 1499982336
+  },
+  "batch_32": {
+    "repeats": 20,
+    "decisions_per_call": 32,
+    "mean_ms": 649.3462850019569,
+    "p50_ms": 651.8903999967733,
+    "p95_ms": 677.1818149907631,
+    "min_ms": 607.0708000042941,
+    "max_ms": 684.2082999937702,
+    "decisions_per_second": 49.28033121788564,
+    "peak_allocated_bytes": 2005720576
+  },
+  "batch_64": {
+    "repeats": 20,
+    "decisions_per_call": 64,
+    "mean_ms": 1219.0310750025674,
+    "p50_ms": 1214.3954499915708,
+    "p95_ms": 1257.9533550175256,
+    "min_ms": 1188.6714000138454,
+    "max_ms": 1263.9242000004742,
+    "decisions_per_second": 52.500712502234784,
+    "peak_allocated_bytes": 2685560832
+  },
+  "batch32_pipeline": {
+    "repeats": 20,
+    "decisions_per_call": 32,
+    "mean_ms": 704.2371550036478,
+    "p50_ms": 704.236999998102,
+    "p95_ms": 731.2855349911842,
+    "min_ms": 671.6962000064086,
+    "max_ms": 736.659399990458,
+    "decisions_per_second": 45.43923843358456
+  },
+  "complete": true
+}

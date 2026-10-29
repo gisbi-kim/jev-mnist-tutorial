@@ -1,0 +1,4 @@
+{
+  "phase": "failed",
+  "error": "B256 reached ~11.6GB device memory and stalled; stopped. Completed B8..128 measurements retained; memorization moved to next run."
+}

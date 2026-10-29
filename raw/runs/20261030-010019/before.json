@@ -1,0 +1,650 @@
+{
+  "image_count": 20,
+  "decision_count": 200,
+  "action_accuracy": 0.1,
+  "macro_recall": 0.3333333333333333,
+  "per_action_recall": {
+    "-1": 0.0,
+    "0": 1.0,
+    "+1": 0.0
+  },
+  "confusion_true_rows_pred_columns": [
+    [
+      0,
+      91,
+      0
+    ],
+    [
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      89,
+      0
+    ]
+  ],
+  "action_order": [
+    "-1",
+    "0",
+    "+1"
+  ],
+  "episode_success_rate": 0.1,
+  "wrong_stop_rate": 0.9,
+  "failure_reasons": {
+    "wrong_stop": 180
+  },
+  "mean_extra_moves_success_only": 0.0,
+  "mean_latency_ms": 128.08330650121206,
+  "nll": 1.1115497798575746,
+  "brier": 0.67536154875,
+  "ece_10_bins": 0.2453295,
+  "examples": [
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 0,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 0,
+          "action": "0",
+          "after": 0
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 1,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 1,
+          "action": "0",
+          "after": 1
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 2,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 2,
+          "action": "0",
+          "after": 2
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 3,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 3,
+          "action": "0",
+          "after": 3
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 4,
+      "success": true,
+      "reason": "success",
+      "trace": [
+        {
+          "before": 4,
+          "action": "0",
+          "after": 4
+        }
+      ],
+      "extra_moves": 0
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 5,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 5,
+          "action": "0",
+          "after": 5
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 6,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 6,
+          "action": "0",
+          "after": 6
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 7,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 7,
+          "action": "0",
+          "after": 7
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 8,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 8,
+          "action": "0",
+          "after": 8
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 9,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 9,
+          "action": "0",
+          "after": 9
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 0,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 0,
+          "action": "0",
+          "after": 0
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 1,
+      "success": true,
+      "reason": "success",
+      "trace": [
+        {
+          "before": 1,
+          "action": "0",
+          "after": 1
+        }
+      ],
+      "extra_moves": 0
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 2,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 2,
+          "action": "0",
+          "after": 2
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 3,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 3,
+          "action": "0",
+          "after": 3
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 4,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 4,
+          "action": "0",
+          "after": 4
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 5,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 5,
+          "action": "0",
+          "after": 5
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 6,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 6,
+          "action": "0",
+          "after": 6
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 7,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 7,
+          "action": "0",
+          "after": 7
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 8,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 8,
+          "action": "0",
+          "after": 8
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 9,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 9,
+          "action": "0",
+          "after": 9
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 0,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 0,
+          "action": "0",
+          "after": 0
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 1,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 1,
+          "action": "0",
+          "after": 1
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 2,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 2,
+          "action": "0",
+          "after": 2
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 4,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 4,
+          "action": "0",
+          "after": 4
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 5,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 5,
+          "action": "0",
+          "after": 5
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 6,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 6,
+          "action": "0",
+          "after": 6
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 7,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 7,
+          "action": "0",
+          "after": 7
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 8,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 8,
+          "action": "0",
+          "after": 8
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 9,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 9,
+          "action": "0",
+          "after": 9
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 0,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 0,
+          "action": "0",
+          "after": 0
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 1,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 1,
+          "action": "0",
+          "after": 1
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 2,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 2,
+          "action": "0",
+          "after": 2
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 3,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 3,
+          "action": "0",
+          "after": 3
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 4,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 4,
+          "action": "0",
+          "after": 4
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 5,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 5,
+          "action": "0",
+          "after": 5
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 7,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 7,
+          "action": "0",
+          "after": 7
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 8,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 8,
+          "action": "0",
+          "after": 8
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 9,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 9,
+          "action": "0",
+          "after": 9
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 3521,
+      "target": 8,
+      "start": 0,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 0,
+          "action": "0",
+          "after": 0
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 3521,
+      "target": 8,
+      "start": 1,
+      "success": false,
+      "reason": "wrong_stop",
+      "trace": [
+        {
+          "before": 1,
+          "action": "0",
+          "after": 1
+        }
+      ],
+      "extra_moves": null
+    }
+  ],
+  "variant": 0,
+  "ablation": null,
+  "source": "test",
+  "note": "Deterministic inference; per-image state predictions cached for exact rollouts. No test labels passed to the model.",
+  "label": "Untrained decision head on pretrained VLM (not a zero-shot VLM benchmark)"
+}

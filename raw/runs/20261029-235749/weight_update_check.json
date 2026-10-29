@@ -1,0 +1,12 @@
+{
+  "joint_head.safetensors": {
+    "changed_tensors": 122,
+    "total_tensors": 122,
+    "max_abs_change": 0.0059806350618600845
+  },
+  "adapter_model.safetensors": {
+    "changed_tensors": 372,
+    "total_tensors": 372,
+    "max_abs_change": 0.007729429751634598
+  }
+}

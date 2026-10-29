@@ -1,0 +1,2 @@
+No training packages were installed by the assistant in the restricted session.
+Runtime resolution is intentionally deferred to installation; successful runs save pip freeze.

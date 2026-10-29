@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-29T16:58:15.834128+00:00",
+  "source": "C:\\Users\\USER\\Downloads\\mnist-decision-lab",
+  "runs": 9,
+  "batches": 770,
+  "samples": 20892,
+  "test_images": 1000,
+  "exported_images": 3000,
+  "excluded": [
+    ".venv environment binaries",
+    ".cache downloaded backbone and HF caches",
+    ".tmp",
+    "unsloth_compiled_cache",
+    "__pycache__"
+  ],
+  "note": "All run directories including retained checkpoints copied. Upstream package source subset and licenses copied; dependencies are pinned in per-run lock files. Original README and absolute paths retained as historical evidence.",
+  "publication_note": "Public edition keeps only final adapter/head; excludes all intermediate checkpoints, compresses data JSONL, generalizes local username paths. Original collection metadata is retained for provenance."
+}

@@ -1,0 +1,1064 @@
+{
+  "image_count": 1000,
+  "decision_count": 10000,
+  "action_accuracy": 0.977,
+  "episode_success_rate": 0.9362,
+  "errors": 230,
+  "failed_episodes": 638,
+  "nll": 0.09311094020659358,
+  "cells": [
+    [
+      {
+        "total": 85,
+        "errors": 3,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 0,
+          "0": 82,
+          "+1": 3
+        }
+      },
+      {
+        "total": 85,
+        "errors": 5,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 80,
+          "0": 0,
+          "+1": 5
+        }
+      },
+      {
+        "total": 85,
+        "errors": 5,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 80,
+          "0": 0,
+          "+1": 5
+        }
+      },
+      {
+        "total": 85,
+        "errors": 5,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 80,
+          "0": 0,
+          "+1": 5
+        }
+      },
+      {
+        "total": 85,
+        "errors": 3,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 82,
+          "0": 0,
+          "+1": 3
+        }
+      },
+      {
+        "total": 85,
+        "errors": 1,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 84,
+          "0": 0,
+          "+1": 1
+        }
+      },
+      {
+        "total": 85,
+        "errors": 2,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 83,
+          "0": 2,
+          "+1": 0
+        }
+      },
+      {
+        "total": 85,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 85,
+          "0": 0,
+          "+1": 0
+        }
+      },
+      {
+        "total": 85,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 85,
+          "0": 0,
+          "+1": 0
+        }
+      },
+      {
+        "total": 85,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 85,
+          "0": 0,
+          "+1": 0
+        }
+      }
+    ],
+    [
+      {
+        "total": 126,
+        "errors": 0,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 126
+        }
+      },
+      {
+        "total": 126,
+        "errors": 3,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 0,
+          "0": 123,
+          "+1": 3
+        }
+      },
+      {
+        "total": 126,
+        "errors": 2,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 124,
+          "0": 0,
+          "+1": 2
+        }
+      },
+      {
+        "total": 126,
+        "errors": 3,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 123,
+          "0": 0,
+          "+1": 3
+        }
+      },
+      {
+        "total": 126,
+        "errors": 2,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 124,
+          "0": 0,
+          "+1": 2
+        }
+      },
+      {
+        "total": 126,
+        "errors": 2,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 124,
+          "0": 0,
+          "+1": 2
+        }
+      },
+      {
+        "total": 126,
+        "errors": 2,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 124,
+          "0": 1,
+          "+1": 1
+        }
+      },
+      {
+        "total": 126,
+        "errors": 1,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 125,
+          "0": 1,
+          "+1": 0
+        }
+      },
+      {
+        "total": 126,
+        "errors": 0,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 126,
+          "0": 0,
+          "+1": 0
+        }
+      },
+      {
+        "total": 126,
+        "errors": 0,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 126,
+          "0": 0,
+          "+1": 0
+        }
+      }
+    ],
+    [
+      {
+        "total": 116,
+        "errors": 0,
+        "episode_failures": 8,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 116
+        }
+      },
+      {
+        "total": 116,
+        "errors": 1,
+        "episode_failures": 8,
+        "predictions": {
+          "-1": 0,
+          "0": 1,
+          "+1": 115
+        }
+      },
+      {
+        "total": 116,
+        "errors": 8,
+        "episode_failures": 8,
+        "predictions": {
+          "-1": 2,
+          "0": 108,
+          "+1": 6
+        }
+      },
+      {
+        "total": 116,
+        "errors": 8,
+        "episode_failures": 11,
+        "predictions": {
+          "-1": 108,
+          "0": 2,
+          "+1": 6
+        }
+      },
+      {
+        "total": 116,
+        "errors": 4,
+        "episode_failures": 11,
+        "predictions": {
+          "-1": 112,
+          "0": 0,
+          "+1": 4
+        }
+      },
+      {
+        "total": 116,
+        "errors": 5,
+        "episode_failures": 11,
+        "predictions": {
+          "-1": 111,
+          "0": 0,
+          "+1": 5
+        }
+      },
+      {
+        "total": 116,
+        "errors": 8,
+        "episode_failures": 14,
+        "predictions": {
+          "-1": 108,
+          "0": 0,
+          "+1": 8
+        }
+      },
+      {
+        "total": 116,
+        "errors": 7,
+        "episode_failures": 15,
+        "predictions": {
+          "-1": 109,
+          "0": 4,
+          "+1": 3
+        }
+      },
+      {
+        "total": 116,
+        "errors": 5,
+        "episode_failures": 16,
+        "predictions": {
+          "-1": 111,
+          "0": 5,
+          "+1": 0
+        }
+      },
+      {
+        "total": 116,
+        "errors": 0,
+        "episode_failures": 16,
+        "predictions": {
+          "-1": 116,
+          "0": 0,
+          "+1": 0
+        }
+      }
+    ],
+    [
+      {
+        "total": 107,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 107
+        }
+      },
+      {
+        "total": 107,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 107
+        }
+      },
+      {
+        "total": 107,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 107
+        }
+      },
+      {
+        "total": 107,
+        "errors": 5,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 102,
+          "+1": 5
+        }
+      },
+      {
+        "total": 107,
+        "errors": 5,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 102,
+          "0": 0,
+          "+1": 5
+        }
+      },
+      {
+        "total": 107,
+        "errors": 5,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 102,
+          "0": 4,
+          "+1": 1
+        }
+      },
+      {
+        "total": 107,
+        "errors": 3,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 104,
+          "0": 0,
+          "+1": 3
+        }
+      },
+      {
+        "total": 107,
+        "errors": 2,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 105,
+          "0": 1,
+          "+1": 1
+        }
+      },
+      {
+        "total": 107,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 106,
+          "0": 1,
+          "+1": 0
+        }
+      },
+      {
+        "total": 107,
+        "errors": 0,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 107,
+          "0": 0,
+          "+1": 0
+        }
+      }
+    ],
+    [
+      {
+        "total": 110,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 110
+        }
+      },
+      {
+        "total": 110,
+        "errors": 1,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 1,
+          "+1": 109
+        }
+      },
+      {
+        "total": 110,
+        "errors": 1,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 1,
+          "0": 0,
+          "+1": 109
+        }
+      },
+      {
+        "total": 110,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 110
+        }
+      },
+      {
+        "total": 110,
+        "errors": 5,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 105,
+          "+1": 5
+        }
+      },
+      {
+        "total": 110,
+        "errors": 5,
+        "episode_failures": 7,
+        "predictions": {
+          "-1": 105,
+          "0": 0,
+          "+1": 5
+        }
+      },
+      {
+        "total": 110,
+        "errors": 4,
+        "episode_failures": 8,
+        "predictions": {
+          "-1": 106,
+          "0": 0,
+          "+1": 4
+        }
+      },
+      {
+        "total": 110,
+        "errors": 4,
+        "episode_failures": 8,
+        "predictions": {
+          "-1": 106,
+          "0": 2,
+          "+1": 2
+        }
+      },
+      {
+        "total": 110,
+        "errors": 2,
+        "episode_failures": 8,
+        "predictions": {
+          "-1": 108,
+          "0": 1,
+          "+1": 1
+        }
+      },
+      {
+        "total": 110,
+        "errors": 1,
+        "episode_failures": 8,
+        "predictions": {
+          "-1": 109,
+          "0": 1,
+          "+1": 0
+        }
+      }
+    ],
+    [
+      {
+        "total": 87,
+        "errors": 0,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 87
+        }
+      },
+      {
+        "total": 87,
+        "errors": 0,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 87
+        }
+      },
+      {
+        "total": 87,
+        "errors": 0,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 87
+        }
+      },
+      {
+        "total": 87,
+        "errors": 3,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 1,
+          "0": 2,
+          "+1": 84
+        }
+      },
+      {
+        "total": 87,
+        "errors": 3,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 3,
+          "0": 0,
+          "+1": 84
+        }
+      },
+      {
+        "total": 87,
+        "errors": 2,
+        "episode_failures": 2,
+        "predictions": {
+          "-1": 1,
+          "0": 85,
+          "+1": 1
+        }
+      },
+      {
+        "total": 87,
+        "errors": 2,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 85,
+          "0": 0,
+          "+1": 2
+        }
+      },
+      {
+        "total": 87,
+        "errors": 3,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 84,
+          "0": 3,
+          "+1": 0
+        }
+      },
+      {
+        "total": 87,
+        "errors": 0,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 87,
+          "0": 0,
+          "+1": 0
+        }
+      },
+      {
+        "total": 87,
+        "errors": 0,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 87,
+          "0": 0,
+          "+1": 0
+        }
+      }
+    ],
+    [
+      {
+        "total": 87,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 0,
+          "0": 1,
+          "+1": 86
+        }
+      },
+      {
+        "total": 87,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 87
+        }
+      },
+      {
+        "total": 87,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 87
+        }
+      },
+      {
+        "total": 87,
+        "errors": 1,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 1,
+          "0": 0,
+          "+1": 86
+        }
+      },
+      {
+        "total": 87,
+        "errors": 3,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 0,
+          "0": 3,
+          "+1": 84
+        }
+      },
+      {
+        "total": 87,
+        "errors": 2,
+        "episode_failures": 3,
+        "predictions": {
+          "-1": 2,
+          "0": 0,
+          "+1": 85
+        }
+      },
+      {
+        "total": 87,
+        "errors": 2,
+        "episode_failures": 2,
+        "predictions": {
+          "-1": 1,
+          "0": 85,
+          "+1": 1
+        }
+      },
+      {
+        "total": 87,
+        "errors": 1,
+        "episode_failures": 2,
+        "predictions": {
+          "-1": 86,
+          "0": 0,
+          "+1": 1
+        }
+      },
+      {
+        "total": 87,
+        "errors": 1,
+        "episode_failures": 2,
+        "predictions": {
+          "-1": 86,
+          "0": 0,
+          "+1": 1
+        }
+      },
+      {
+        "total": 87,
+        "errors": 1,
+        "episode_failures": 2,
+        "predictions": {
+          "-1": 86,
+          "0": 1,
+          "+1": 0
+        }
+      }
+    ],
+    [
+      {
+        "total": 99,
+        "errors": 0,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 99
+        }
+      },
+      {
+        "total": 99,
+        "errors": 0,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 99
+        }
+      },
+      {
+        "total": 99,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 0,
+          "0": 1,
+          "+1": 98
+        }
+      },
+      {
+        "total": 99,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 0,
+          "0": 1,
+          "+1": 98
+        }
+      },
+      {
+        "total": 99,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 1,
+          "0": 0,
+          "+1": 98
+        }
+      },
+      {
+        "total": 99,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 1,
+          "0": 0,
+          "+1": 98
+        }
+      },
+      {
+        "total": 99,
+        "errors": 0,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 99
+        }
+      },
+      {
+        "total": 99,
+        "errors": 5,
+        "episode_failures": 5,
+        "predictions": {
+          "-1": 1,
+          "0": 94,
+          "+1": 4
+        }
+      },
+      {
+        "total": 99,
+        "errors": 3,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 96,
+          "0": 2,
+          "+1": 1
+        }
+      },
+      {
+        "total": 99,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 98,
+          "0": 1,
+          "+1": 0
+        }
+      }
+    ],
+    [
+      {
+        "total": 89,
+        "errors": 1,
+        "episode_failures": 13,
+        "predictions": {
+          "-1": 0,
+          "0": 1,
+          "+1": 88
+        }
+      },
+      {
+        "total": 89,
+        "errors": 0,
+        "episode_failures": 13,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 89
+        }
+      },
+      {
+        "total": 89,
+        "errors": 2,
+        "episode_failures": 13,
+        "predictions": {
+          "-1": 0,
+          "0": 2,
+          "+1": 87
+        }
+      },
+      {
+        "total": 89,
+        "errors": 3,
+        "episode_failures": 13,
+        "predictions": {
+          "-1": 2,
+          "0": 1,
+          "+1": 86
+        }
+      },
+      {
+        "total": 89,
+        "errors": 2,
+        "episode_failures": 12,
+        "predictions": {
+          "-1": 2,
+          "0": 0,
+          "+1": 87
+        }
+      },
+      {
+        "total": 89,
+        "errors": 4,
+        "episode_failures": 12,
+        "predictions": {
+          "-1": 3,
+          "0": 1,
+          "+1": 85
+        }
+      },
+      {
+        "total": 89,
+        "errors": 5,
+        "episode_failures": 12,
+        "predictions": {
+          "-1": 3,
+          "0": 2,
+          "+1": 84
+        }
+      },
+      {
+        "total": 89,
+        "errors": 8,
+        "episode_failures": 12,
+        "predictions": {
+          "-1": 7,
+          "0": 1,
+          "+1": 81
+        }
+      },
+      {
+        "total": 89,
+        "errors": 12,
+        "episode_failures": 12,
+        "predictions": {
+          "-1": 8,
+          "0": 77,
+          "+1": 4
+        }
+      },
+      {
+        "total": 89,
+        "errors": 10,
+        "episode_failures": 18,
+        "predictions": {
+          "-1": 79,
+          "0": 9,
+          "+1": 1
+        }
+      }
+    ],
+    [
+      {
+        "total": 94,
+        "errors": 0,
+        "episode_failures": 7,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 94
+        }
+      },
+      {
+        "total": 94,
+        "errors": 0,
+        "episode_failures": 7,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 94
+        }
+      },
+      {
+        "total": 94,
+        "errors": 0,
+        "episode_failures": 7,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 94
+        }
+      },
+      {
+        "total": 94,
+        "errors": 0,
+        "episode_failures": 7,
+        "predictions": {
+          "-1": 0,
+          "0": 0,
+          "+1": 94
+        }
+      },
+      {
+        "total": 94,
+        "errors": 2,
+        "episode_failures": 7,
+        "predictions": {
+          "-1": 0,
+          "0": 2,
+          "+1": 92
+        }
+      },
+      {
+        "total": 94,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 1,
+          "0": 0,
+          "+1": 93
+        }
+      },
+      {
+        "total": 94,
+        "errors": 1,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 1,
+          "0": 0,
+          "+1": 93
+        }
+      },
+      {
+        "total": 94,
+        "errors": 2,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 1,
+          "0": 1,
+          "+1": 92
+        }
+      },
+      {
+        "total": 94,
+        "errors": 6,
+        "episode_failures": 6,
+        "predictions": {
+          "-1": 2,
+          "0": 4,
+          "+1": 88
+        }
+      },
+      {
+        "total": 94,
+        "errors": 4,
+        "episode_failures": 4,
+        "predictions": {
+          "-1": 4,
+          "0": 90,
+          "+1": 0
+        }
+      }
+    ]
+  ],
+  "confusion": [
+    [
+      4549,
+      41,
+      83
+    ],
+    [
+      17,
+      951,
+      32
+    ],
+    [
+      32,
+      25,
+      4270
+    ]
+  ],
+  "action_order": [
+    "-1",
+    "0",
+    "+1"
+  ],
+  "failure_reasons": {
+    "wrong_stop": 434,
+    "cycle": 203,
+    "out_of_range": 1
+  },
+  "phase": "complete",
+  "total_images": 1000,
+  "elapsed_seconds": 228.15634099999443,
+  "images_per_second": 4.382959490045575,
+  "scope": "Official MNIST test IDs 0–999, reduced at user request; not all 10000.",
+  "requested_original_images": 10000
+}

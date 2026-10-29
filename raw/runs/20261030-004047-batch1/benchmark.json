@@ -1,0 +1,32 @@
+{
+  "batch_size": 1,
+  "grad_accum": 8,
+  "effective_batch": 8,
+  "optimizer_steps": 12,
+  "warmup_steps_excluded": 2,
+  "step_seconds": [
+    8.338995600002818,
+    2.628377899993211,
+    2.5125107999774627,
+    2.4997634000028484,
+    2.506275399995502,
+    2.474624099995708,
+    2.5279604999814183,
+    2.448613100015791,
+    2.5207826000114437,
+    2.4822149999963585,
+    2.498161600000458,
+    2.5223695999884512
+  ],
+  "steady_seconds_per_update": 2.499327609996544,
+  "steady_examples_per_second": 3.200860890746156,
+  "training_metrics": {
+    "train_runtime": 36.2349,
+    "train_samples_per_second": 2.649,
+    "train_steps_per_second": 0.331,
+    "total_flos": 0.0,
+    "train_loss": 1.112984150648117,
+    "epoch": 0.13114754098360656
+  },
+  "telemetry_enabled": true
+}

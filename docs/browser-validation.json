@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-30",
+  "mode": "local HTTP, 127.0.0.1:7865/site/index.html",
+  "viewport_width": 693,
+  "horizontal_document_overflow": false,
+  "broken_loaded_images": 0,
+  "console_errors_observed": [],
+  "checks": [
+    "Main run loads with 600 recorded microbatches",
+    "Last batch displays optimizer step 600, 32 samples, loss 0.004743 and 19200 exposures",
+    "Historical no-trace run displays missing batch warning and saved Trainer loss curve",
+    "B1 accumulation benchmark last microbatch 96 maps to optimizer step 12",
+    "Target 8/current 8 heatmap filter returns 12 error images",
+    "Filtered second page works",
+    "All-image mode returns 1000 images over 125 pages",
+    "Image ID search immediately filters to test image 87",
+    "All 10 trajectories of image 87 render, including 6 to 7 to 6 cycle",
+    "Home screenshot and iteration screenshot saved"
+  ],
+  "limits": [
+    "Built-in browser security policy blocks file URL navigation; file:// mode was not browser-tested. Static script/image paths are relative and local HTTP was verified.",
+    "Other viewport sizes not interactively tested. Responsive CSS is included.",
+    "No new training or inference was performed for this packaging task."
+  ],
+  "prose_revision": {
+    "date": "2026-10-30",
+    "checks": [
+      "Rewritten article title and numbered sections visible",
+      "Last batch 600 shows 32 samples and loss 0.004743",
+      "Target 8/current 8 filter returns 12 images",
+      "No horizontal overflow at 693 px",
+      "No browser console errors observed"
+    ],
+    "screenshot": "docs/screenshots/tutorial-article.jpg"
+  },
+  "model_figures": {
+    "date": "2026-10-30",
+    "figures": [
+      "site/figures/model-flow.svg",
+      "site/figures/lora-paths.svg",
+      "site/figures/decision-head.svg"
+    ],
+    "checks": [
+      "Three SVG diagrams rendered in local browser",
+      "LoRA branches and surrounding prose visually checked",
+      "Decision head routing and decoder connections visually checked",
+      "No document overflow at 693 px",
+      "61 local links verified; experimental exports remain equal to raw"
+    ],
+    "screenshot": "docs/screenshots/tutorial-lora-figure.jpg",
+    "example_values": "Illustrative logits [-1,0,2], not measured predictions"
+  }
+}

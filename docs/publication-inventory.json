@@ -1,0 +1,487 @@
+{
+  "created_utc": "2026-10-29T17:41:01.098388+00:00",
+  "source_bundle_bytes": 3288402807,
+  "final_model_run": "20261030-010019",
+  "omitted_files": [
+    {
+      "path": "raw/runs/20261029-234406/adapter/adapter_config.json",
+      "bytes": 1789
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/adapter_model.safetensors",
+      "bytes": 43346432
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/chat_template.jinja",
+      "bytes": 8149
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/joint_head.safetensors",
+      "bytes": 54661902
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/joint_head_config.json",
+      "bytes": 123
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/processor_config.json",
+      "bytes": 1389
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/README.md",
+      "bytes": 5204
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/tokenizer.json",
+      "bytes": 19989325
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/tokenizer_config.json",
+      "bytes": 7487
+    },
+    {
+      "path": "raw/runs/20261029-234406/adapter/unsloth_decision_config.json",
+      "bytes": 234
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/adapter_config.json",
+      "bytes": 1789
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/adapter_model.safetensors",
+      "bytes": 43346432
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/chat_template.jinja",
+      "bytes": 8149
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/joint_head.safetensors",
+      "bytes": 109311728
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/joint_head_config.json",
+      "bytes": 123
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/optimizer.pt",
+      "bytes": 305603053
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/processor_config.json",
+      "bytes": 1389
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/README.md",
+      "bytes": 5204
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/rng_state.pth",
+      "bytes": 14645
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/scheduler.pt",
+      "bytes": 1465
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/tokenizer.json",
+      "bytes": 19989325
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/tokenizer_config.json",
+      "bytes": 7487
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/trainer_state.json",
+      "bytes": 1182
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/training_args.bin",
+      "bytes": 5265
+    },
+    {
+      "path": "raw/runs/20261029-234406/checkpoints/checkpoint-10/unsloth_decision_config.json",
+      "bytes": 188
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/adapter_config.json",
+      "bytes": 1789
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/adapter_model.safetensors",
+      "bytes": 43346432
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/chat_template.jinja",
+      "bytes": 8149
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/joint_head.safetensors",
+      "bytes": 54661902
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/joint_head_config.json",
+      "bytes": 123
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/processor_config.json",
+      "bytes": 1389
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/README.md",
+      "bytes": 5204
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/tokenizer.json",
+      "bytes": 19989325
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/tokenizer_config.json",
+      "bytes": 7487
+    },
+    {
+      "path": "raw/runs/20261029-235749/adapter/unsloth_decision_config.json",
+      "bytes": 234
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/adapter_config.json",
+      "bytes": 1789
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/adapter_model.safetensors",
+      "bytes": 43346432
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/chat_template.jinja",
+      "bytes": 8149
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/joint_head.safetensors",
+      "bytes": 109311728
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/joint_head_config.json",
+      "bytes": 123
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/optimizer.pt",
+      "bytes": 305603053
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/processor_config.json",
+      "bytes": 1389
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/README.md",
+      "bytes": 5204
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/rng_state.pth",
+      "bytes": 14645
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/scheduler.pt",
+      "bytes": 1465
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/tokenizer.json",
+      "bytes": 19989325
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/tokenizer_config.json",
+      "bytes": 7487
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/trainer_state.json",
+      "bytes": 20188
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/training_args.bin",
+      "bytes": 5265
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-500/unsloth_decision_config.json",
+      "bytes": 188
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/adapter_config.json",
+      "bytes": 1789
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/adapter_model.safetensors",
+      "bytes": 43346432
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/chat_template.jinja",
+      "bytes": 8149
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/joint_head.safetensors",
+      "bytes": 109311728
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/joint_head_config.json",
+      "bytes": 123
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/optimizer.pt",
+      "bytes": 305603053
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/processor_config.json",
+      "bytes": 1389
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/README.md",
+      "bytes": 5204
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/rng_state.pth",
+      "bytes": 14645
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/scheduler.pt",
+      "bytes": 1465
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/tokenizer.json",
+      "bytes": 19989325
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/tokenizer_config.json",
+      "bytes": 7487
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/trainer_state.json",
+      "bytes": 24073
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/training_args.bin",
+      "bytes": 5265
+    },
+    {
+      "path": "raw/runs/20261029-235749/checkpoints/checkpoint-600/unsloth_decision_config.json",
+      "bytes": 188
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/adapter_config.json",
+      "bytes": 1789
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/adapter_model.safetensors",
+      "bytes": 43346432
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/chat_template.jinja",
+      "bytes": 8149
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/joint_head.safetensors",
+      "bytes": 54661902
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/joint_head_config.json",
+      "bytes": 123
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/processor_config.json",
+      "bytes": 1389
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/README.md",
+      "bytes": 5204
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/tokenizer.json",
+      "bytes": 19989325
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/tokenizer_config.json",
+      "bytes": 7487
+    },
+    {
+      "path": "raw/runs/20261030-005547-memorize/adapter/unsloth_decision_config.json",
+      "bytes": 188
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/adapter_config.json",
+      "bytes": 1789
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/adapter_model.safetensors",
+      "bytes": 43346432
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/chat_template.jinja",
+      "bytes": 8149
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/joint_head.safetensors",
+      "bytes": 109311728
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/joint_head_config.json",
+      "bytes": 123
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/optimizer.pt",
+      "bytes": 305603053
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/processor_config.json",
+      "bytes": 1389
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/README.md",
+      "bytes": 5204
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/rng_state.pth",
+      "bytes": 14645
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/scheduler.pt",
+      "bytes": 1465
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/tokenizer.json",
+      "bytes": 19989325
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/tokenizer_config.json",
+      "bytes": 7487
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/trainer_state.json",
+      "bytes": 20133
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/training_args.bin",
+      "bytes": 5265
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-500/unsloth_decision_config.json",
+      "bytes": 188
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/adapter_config.json",
+      "bytes": 1789
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/adapter_model.safetensors",
+      "bytes": 43346432
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/chat_template.jinja",
+      "bytes": 8149
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/joint_head.safetensors",
+      "bytes": 109311728
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/joint_head_config.json",
+      "bytes": 123
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/optimizer.pt",
+      "bytes": 305603053
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/processor_config.json",
+      "bytes": 1389
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/README.md",
+      "bytes": 5204
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/rng_state.pth",
+      "bytes": 14645
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/scheduler.pt",
+      "bytes": 1465
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/tokenizer.json",
+      "bytes": 19989325
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/tokenizer_config.json",
+      "bytes": 7487
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/trainer_state.json",
+      "bytes": 24011
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/training_args.bin",
+      "bytes": 5265
+    },
+    {
+      "path": "raw/runs/20261030-010019/checkpoints/checkpoint-600/unsloth_decision_config.json",
+      "bytes": 188
+    }
+  ],
+  "omitted_bytes": 2745636853,
+  "losslessly_compressed": [
+    {
+      "path": "raw/data/test.jsonl.gz",
+      "original_path": "raw/data/test.jsonl",
+      "original_bytes": 49328900,
+      "original_sha256": "17a2cafb9588dbdaabd92a3b8341539ba8af9719a97e63213077d94ce7effc42",
+      "compressed_bytes": 427296
+    },
+    {
+      "path": "raw/data/train.jsonl.gz",
+      "original_path": "raw/data/train.jsonl",
+      "original_bytes": 272368111,
+      "original_sha256": "2e39deb85a87498e4218b118c1292370c0dde1be0201e2dd1e1b6acd5021b812",
+      "compressed_bytes": 3185818
+    },
+    {
+      "path": "raw/data/validation.jsonl.gz",
+      "original_path": "raw/data/validation.jsonl",
+      "original_bytes": 24760789,
+      "original_sha256": "2ebd80715b723e6765afb0e604f53c4ca5abec27729d0a58f269b812a931e0a0",
+      "compressed_bytes": 290593
+    }
+  ],
+  "username_path_redactions": [
+    "catalog.json",
+    "docs/resolved-training-args/20261029-234406.json",
+    "docs/resolved-training-args/20261029-235749.json",
+    "docs/resolved-training-args/20261030-010019.json",
+    "raw/code/make_test_report.py",
+    "raw/code/README.md",
+    "raw/dashboard_api/20261030-010019.json",
+    "raw/prior_reports/extended-training-results.json",
+    "raw/prior_reports/smoke-verification.json",
+    "raw/prior_reports/test-1000-report.md",
+    "raw/runs/20261029-234406/reload_verification.json",
+    "raw/runs/20261029-234406/requirements.lock.txt",
+    "raw/runs/20261029-235749/requirements.lock.txt",
+    "raw/runs/20261030-010019/full_test/config.json",
+    "raw/runs/20261030-010019/live_status.json",
+    "raw/runs/20261030-010019/requirements.lock.txt",
+    "raw/session_logs/diagnose-error.log",
+    "raw/session_logs/diagnose.log",
+    "raw/session_logs/english-training-error.log",
+    "raw/session_logs/extended-gpu-summary.json",
+    "raw/session_logs/extended-train.log",
+    "raw/session_logs/latest.json",
+    "raw/session_logs/smoke-reload.log",
+    "raw/session_logs/smoke-train-eager.log",
+    "raw/session_logs/smoke-train.log",
+    "raw/session_logs/status.json",
+    "site/data/catalog.js",
+    "site/data/runs/20261030-010019.js",
+    "site/data/test.js",
+    "snapshot.json",
+    "tools/finalize_tutorial.py",
+    "tools/package_tutorial.py",
+    "tools/verify_tutorial.py"
+  ],
+  "note": "Original local archive is unchanged. Public raw files preserve measurements; local username path components are generalized. Original source-copy hashes describe the earlier private local archive, not this publication. Use publication manifest.json for current integrity."
+}

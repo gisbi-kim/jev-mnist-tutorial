@@ -1,0 +1,1549 @@
+{
+  "image_count": 100,
+  "decision_count": 1000,
+  "action_accuracy": 0.434,
+  "macro_recall": 0.3333333333333333,
+  "per_action_recall": {
+    "-1": 0.0,
+    "0": 0.0,
+    "+1": 1.0
+  },
+  "confusion_true_rows_pred_columns": [
+    [
+      0,
+      0,
+      466
+    ],
+    [
+      0,
+      0,
+      100
+    ],
+    [
+      0,
+      0,
+      434
+    ]
+  ],
+  "action_order": [
+    "-1",
+    "0",
+    "+1"
+  ],
+  "episode_success_rate": 0.0,
+  "wrong_stop_rate": 0.0,
+  "failure_reasons": {
+    "out_of_range": 1000
+  },
+  "mean_extra_moves_success_only": null,
+  "mean_latency_ms": 115.51271040036227,
+  "nll": 0.957016653089227,
+  "brier": 0.59100683052,
+  "ece_10_bins": 0.05728089999999999,
+  "examples": [
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 0,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 0,
+          "action": "+1",
+          "after": 1
+        },
+        {
+          "before": 1,
+          "action": "+1",
+          "after": 2
+        },
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 1,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 1,
+          "action": "+1",
+          "after": 2
+        },
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 2,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 3,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 4,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 5,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 6,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 7,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 8,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 931,
+      "target": 4,
+      "start": 9,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 0,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 0,
+          "action": "+1",
+          "after": 1
+        },
+        {
+          "before": 1,
+          "action": "+1",
+          "after": 2
+        },
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 1,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 1,
+          "action": "+1",
+          "after": 2
+        },
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 2,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 3,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 4,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 5,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 6,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 7,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 8,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 6869,
+      "target": 1,
+      "start": 9,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 0,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 0,
+          "action": "+1",
+          "after": 1
+        },
+        {
+          "before": 1,
+          "action": "+1",
+          "after": 2
+        },
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 1,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 1,
+          "action": "+1",
+          "after": 2
+        },
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 2,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 3,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 4,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 5,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 6,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 7,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 8,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 2174,
+      "target": 3,
+      "start": 9,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 0,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 0,
+          "action": "+1",
+          "after": 1
+        },
+        {
+          "before": 1,
+          "action": "+1",
+          "after": 2
+        },
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 1,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 1,
+          "action": "+1",
+          "after": 2
+        },
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 2,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 2,
+          "action": "+1",
+          "after": 3
+        },
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 3,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 3,
+          "action": "+1",
+          "after": 4
+        },
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 4,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 4,
+          "action": "+1",
+          "after": 5
+        },
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 5,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 5,
+          "action": "+1",
+          "after": 6
+        },
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 6,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 6,
+          "action": "+1",
+          "after": 7
+        },
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 7,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 7,
+          "action": "+1",
+          "after": 8
+        },
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 8,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 8,
+          "action": "+1",
+          "after": 9
+        },
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    },
+    {
+      "test_image_id": 5421,
+      "target": 6,
+      "start": 9,
+      "success": false,
+      "reason": "out_of_range",
+      "trace": [
+        {
+          "before": 9,
+          "action": "+1",
+          "after": 10
+        }
+      ],
+      "extra_moves": null
+    }
+  ],
+  "variant": 0,
+  "ablation": null,
+  "source": "test",
+  "note": "Deterministic inference; per-image state predictions cached for exact rollouts. No test labels passed to the model."
+}

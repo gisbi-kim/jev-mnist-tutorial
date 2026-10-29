@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "recorded_batches": 770,
+  "sample_exposures": 20892,
+  "test_images": 1000,
+  "test_decisions": 10000,
+  "recomputed_action_errors": 230,
+  "recomputed_episode_failures": 638,
+  "recomputed_failure_reasons": {
+    "wrong_stop": 434,
+    "cycle": 203,
+    "out_of_range": 1
+  },
+  "heatmap_cells_verified": 100,
+  "training_exports_equal_raw": true,
+  "english_main_inputs_verified": true,
+  "static_links_verified": 64,
+  "saved_parameter_inventory": {
+    "adapter_model.safetensors": {
+      "tensors": 372,
+      "parameters": 10822656,
+      "dtypes": {
+        "F32": 372
+      }
+    },
+    "joint_head.safetensors": {
+      "tensors": 122,
+      "parameters": 27324932,
+      "dtypes": {
+        "F32": 3,
+        "BF16": 119
+      }
+    }
+  }
+}
