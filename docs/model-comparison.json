@@ -1,0 +1,410 @@
+{
+  "checked_at": "2026-10-30",
+  "note": "공개 출처 정리. 신규 벤치마크 아님. 미확인은 미지원과 다름.",
+  "models": [
+    {
+      "name": "Jev 1.14",
+      "mode": "api",
+      "price": "$0.042 / 1M 입력 · OpenRouter",
+      "speed": "100 ms p50 · OpenRouter 최근 1주 표시, 모든 지역·입력 혼합",
+      "quality": "1.14의 동일 조건 정확도 미확인. 이전 1.13 점수를 최신 버전에 옮기지 않음.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "가격·속도·입력",
+          "https://openrouter.ai/typesafe/jev-1.14"
+        ]
+      ]
+    },
+    {
+      "name": "OpenAI Decisions · GPT-6 Luna",
+      "mode": "api",
+      "price": "$0.10 / 1M 입력; 캐시 읽기 $0.01 · 쓰기·지역 할증 별도",
+      "speed": "<280 ms p95 · Sierra 업무 사례, 전체 서비스 보장치 아님",
+      "quality": "Box의 30개 보험증서 사례에서 Responses API와 같은 정확도 보고. 통일 벤치마크 수치 미확인.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "공식 발표",
+          "https://openai.com/index/decisions-api/"
+        ],
+        [
+          "요금 조건",
+          "https://developers.openai.com/api/docs/guides/decisions"
+        ]
+      ]
+    },
+    {
+      "name": "Microsoft-Decision-1",
+      "mode": "api",
+      "price": "$0.042 / 1M 입력 · OpenRouter",
+      "speed": "200 ms p50 · OpenRouter 최근 1주 표시",
+      "quality": "Microsoft의 36개 벤치마크 비교에서 최고 성능 주장. 공통 정확도 %는 확인 자료에 없음.",
+      "korean": "다국어 평가 언급 / 한국어별 수치 미확인",
+      "vision": "no",
+      "sources": [
+        [
+          "가격·속도",
+          "https://openrouter.ai/microsoft/microsoft-decision-1"
+        ],
+        [
+          "평가 범위",
+          "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
+        ]
+      ]
+    },
+    {
+      "name": "GLiDE",
+      "mode": "api",
+      "price": "$0.04 / 1M 입력",
+      "speed": "동일 조건 절대 지연시간 미확인",
+      "quality": "DI 0.2.1: 64.81점 · Fastino 자체 실행, 9/30 발표 당시. 최신 배너 점수와 구분.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "가격",
+          "https://docs.fastino.ai/pricing"
+        ],
+        [
+          "평가",
+          "https://fastino.ai/blog/introducing-glide-the-first-thinking-decision-model"
+        ],
+        [
+          "이미지",
+          "https://docs.fastino.ai/concepts/glide-capabilities"
+        ]
+      ]
+    },
+    {
+      "name": "Mercury Decide",
+      "mode": "api",
+      "price": "$0.02 / 1M 입력 · 50% 할인 표시 당시",
+      "speed": "공식 자료에서 비교 가능한 수치 미확인",
+      "quality": "공식 자료에서 공통 벤치마크 수치 미확인",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "unknown",
+      "sources": [
+        [
+          "공식 제품·요금",
+          "https://www.inceptionlabs.ai/"
+        ]
+      ]
+    },
+    {
+      "name": "Nimble-v4 / v4-max",
+      "mode": "api",
+      "price": "공개 단가 미확인 · 신규 가입 대기",
+      "speed": "비교 가능한 수치 미확인",
+      "quality": "DI public: 63.70 / 68.46점 · Bespoke 자체 실행 10/12, 미등재 결과",
+      "korean": "한국어별 평가 미확인 · 텍스트 모델",
+      "vision": "no",
+      "sources": [
+        [
+          "제품·평가",
+          "https://console.bespokelabs.ai/"
+        ]
+      ]
+    },
+    {
+      "name": "Parallel Decisions",
+      "mode": "api",
+      "price": "$1 / 1,000 호출 · 토큰 과금과 단위가 다름",
+      "speed": "웹 검색 포함. 동일 조건 p50/p95 미확인",
+      "quality": "웹 근거를 찾는 과제. 이미지 숫자 판단과 비교할 공통 수치 미확인",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "unknown",
+      "sources": [
+        [
+          "공식 요금·역할",
+          "https://parallel.ai/blog/decisions-api"
+        ]
+      ]
+    },
+    {
+      "name": "Span-01",
+      "mode": "api",
+      "price": "$0.02 / 1M 입력; Lite 무료는 일일 한도 내",
+      "speed": "비교 가능한 수치 미확인",
+      "quality": "행동 평가 0.806 · Respan 자체 trace 벤치마크, 단순 정답률로 해석하지 않음",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "unknown",
+      "sources": [
+        [
+          "개발사 요금·평가",
+          "https://www.respan.ai/articles/best-ai-decision-models"
+        ]
+      ]
+    },
+    {
+      "name": "Clef 27B",
+      "mode": "api local",
+      "price": "$0.24 / 1M 입력 · Workers AI; 로컬은 장비비",
+      "speed": "209.3 ms 중앙값 / 238.6 ms p95 · Cloudflare DI 0.2.1 내부 실행",
+      "quality": "BANKING77 macro-F1 94.2% · 같은 내부 실행. MNIST 수치 아님.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "가격",
+          "https://developers.cloudflare.com/workers-ai/models/clef/"
+        ],
+        [
+          "평가·속도",
+          "https://huggingface.co/Cloudflare/clef"
+        ]
+      ]
+    },
+    {
+      "name": "Clef-flash 9B",
+      "mode": "api local",
+      "price": "$0.038 / 1M 입력 · Workers AI; 로컬은 장비비",
+      "speed": "38.8 ms 중앙값 / 122.4 ms p95 · Cloudflare DI 0.2.1 내부 실행",
+      "quality": "BANKING77 macro-F1 90.9% · 같은 내부 실행. 공개 모델도 이미지 지원.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "가격·이미지",
+          "https://developers.cloudflare.com/workers-ai/models/clef-flash/"
+        ],
+        [
+          "평가·속도",
+          "https://huggingface.co/Cloudflare/clef-flash"
+        ]
+      ]
+    },
+    {
+      "name": "d1 · 호스팅",
+      "mode": "api",
+      "price": "$0.02 / 1M 입력 · Liquid 가격표의 d1",
+      "speed": "API의 동일 조건 수치 미확인. 아래 로컬 3B 속도와 다름.",
+      "quality": "공개 3B와 서버 모델을 동일시하지 않음. 정확 버전별 비교 필요.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "가격",
+          "https://www.liquid.ai/pricing"
+        ],
+        [
+          "제품",
+          "https://www.liquid.ai/blog/d1-decision-model"
+        ]
+      ]
+    },
+    {
+      "name": "d1-3B · 공개 모델",
+      "mode": "local",
+      "price": "로컬 장비비 + Liquid 라이선스 조건",
+      "speed": "RTX 4090: 텍스트 8 ms / 384px 이미지 17 ms · 단건, 개발사 측정",
+      "quality": "DI 0.2.1 public: 48.57점 · Liquid 보고. 이미지 MNIST 성능은 미측정.",
+      "korean": "다국어 벤치마크 있음 / 한국어별 결과 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "평가·속도",
+          "https://www.liquid.ai/blog/d1-open"
+        ],
+        [
+          "라이선스",
+          "https://huggingface.co/LiquidAI/d1-3B"
+        ]
+      ]
+    },
+    {
+      "name": "d1-omni-600M",
+      "mode": "local",
+      "price": "로컬 장비비 + Liquid 라이선스 조건",
+      "speed": "초기 연구 모델. 같은 발표의 3B 속도를 적용하지 않음.",
+      "quality": "DI 0.2.1 public: 15.95점 · Liquid 보고",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "모델·평가",
+          "https://www.liquid.ai/blog/d1-open"
+        ]
+      ]
+    },
+    {
+      "name": "pplx-Decider v1.2 / Flash v1.2",
+      "mode": "api",
+      "price": "$0.02 / $0.01 per 1M 입력 · 각각 27B / 4B",
+      "speed": "현재 버전의 동일 조건 속도 미확인",
+      "quality": "v1.2의 공통 평가 수치 미확인. 아래 공개 v1.1 점수와 구분.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "가격·이미지·과금",
+          "https://docs.perplexity.ai/docs/decisions/quickstart"
+        ]
+      ]
+    },
+    {
+      "name": "pplx-Decider v1.1-27b · 공개",
+      "mode": "local",
+      "price": "로컬 실행: 호출료 없음 / 장비·전력 별도",
+      "speed": "동일 조건 속도 미확인",
+      "quality": "DI 61.56점 · Perplexity 모델 카드 자체 보고. 전용 attention·readout 설정 필요.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "공개 모델 카드",
+          "https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b"
+        ]
+      ]
+    },
+    {
+      "name": "Span-02",
+      "mode": "api local",
+      "price": "$0.01 / 1M 입력; 공개판은 장비비",
+      "speed": "budget_ms로 추론 예산 설정. 그 값은 실측 왕복 지연시간이 아님.",
+      "quality": "DI 0.3: 61.2점(추론 끔) / 64.1점(시간 제한 없음) · Respan 실행",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "개발사 요금·평가",
+          "https://www.respan.ai/articles/best-ai-decision-models"
+        ]
+      ]
+    },
+    {
+      "name": "Laya · 영어 기본판",
+      "mode": "local",
+      "price": "로컬 실행: 호출료 없음 / 장비·전력 별도",
+      "speed": "39.5 ms · T4, 1질문, 개발사 측정",
+      "quality": "MASSIVE 영어 intent: 78.3% · 개발사 비교. 모든 업무의 정확도 아님.",
+      "korean": "영어용. 한국어에는 다국어판을 선택",
+      "vision": "no",
+      "sources": [
+        [
+          "모델 카드",
+          "https://huggingface.co/convaiinnovations/laya"
+        ]
+      ]
+    },
+    {
+      "name": "Laya Multilingual",
+      "mode": "local",
+      "price": "로컬 실행: 호출료 없음 / 장비·전력 별도",
+      "speed": "32.8 ms · T4, 1질문, 개발사 측정",
+      "quality": "MASSIVE 51언어 평균 정확도 36.6% · 20선택지 실험",
+      "korean": "한국어 MASSIVE 49.0% · 같은 조건 영어판 11.0%, 개발사 보고",
+      "vision": "no",
+      "sources": [
+        [
+          "다국어 평가",
+          "https://huggingface.co/convaiinnovations/laya-multilingual"
+        ]
+      ]
+    },
+    {
+      "name": "laya-ko · 커뮤니티 추가학습",
+      "mode": "local",
+      "price": "로컬 실행: 호출료 없음 / 장비·전력 별도",
+      "speed": "약 30 ms CPU라는 작성자 설명 · CPU 기종·분위수 불명",
+      "quality": "KLUE-YNAT 83.4% (n=1,000), NLI 81.5% (n=1,000) · 작성자 평가",
+      "korean": "한국어 특화. KLUE train으로 학습, validation에서 평가한 결과",
+      "vision": "no",
+      "sources": [
+        [
+          "모델 카드·평가",
+          "https://huggingface.co/2nugu/laya-ko"
+        ],
+        [
+          "원문",
+          "https://huggingface.co/2nugu/laya-ko/raw/main/README.md"
+        ]
+      ]
+    },
+    {
+      "name": "Kev · 공개 계열",
+      "mode": "local",
+      "price": "로컬 실행: 호출료 없음 / 장비·전력 별도",
+      "speed": "현재 버전·장비를 맞춘 수치 미확인",
+      "quality": "모델 크기와 체크포인트를 고정해야 비교 가능. 계열 전체의 단일 정확도 없음.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "unknown",
+      "sources": [
+        [
+          "공식 구현",
+          "https://github.com/jaredpalmer/kev"
+        ]
+      ]
+    },
+    {
+      "name": "GLiNER2.5-Decide 340M",
+      "mode": "api local",
+      "price": "로컬은 장비비; Fastino API $0.03 / 1M 입력",
+      "speed": "38.3 ms p50 V100 / 167.3 ms p50 48-vCPU Xeon · 짧은 문서",
+      "quality": "Fast Decisions 17데이터셋 평균 60.1% · Fastino 자체 평가",
+      "korean": "공식 문서는 영어 분류용으로 안내. 다국어 GLiNER 추출 모델과 별개",
+      "vision": "no",
+      "sources": [
+        [
+          "평가·속도",
+          "https://fastino.ai/blog/gliner-2-5-decide-open-weight-decision-model"
+        ],
+        [
+          "가격",
+          "https://docs.fastino.ai/pricing"
+        ],
+        [
+          "언어",
+          "https://docs.fastino.ai/introduction"
+        ]
+      ]
+    },
+    {
+      "name": "H2O-Lightning-4B",
+      "mode": "local",
+      "price": "로컬 실행: 호출료 없음 / 장비·전력 별도",
+      "speed": "28.2 ms p50 · L40S, two-way, 텍스트 100–300토큰·1질문",
+      "quality": "DI 0.3 text 63.21 / vision 69.87점 · H2O 자체 실행. 앞의 속도는 짧은 텍스트 조건.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "모델 카드·조건",
+          "https://huggingface.co/h2oai/h2o-lightning-4b"
+        ]
+      ]
+    },
+    {
+      "name": "vLLM-SR Decision 1.0 · Lux-9B",
+      "mode": "local",
+      "price": "로컬 실행: 호출료 없음 / 장비·전력 별도",
+      "speed": "확인한 발표에서 비교 가능한 절대 수치 미확인",
+      "quality": "54과제·3,766결정의 가중 점수 76.94 · 개발팀 측정. DI와 다른 척도.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "no",
+      "sources": [
+        [
+          "1.0 발표",
+          "https://vllm-sr.ai/blog/decision-models/"
+        ]
+      ]
+    },
+    {
+      "name": "Strands Decider · 2B",
+      "mode": "local",
+      "price": "로컬 실행: 호출료 없음 / 장비·전력 별도",
+      "speed": "115 ms 중앙값 · RTX 3090, 프로젝트 설명; 이미지 속도로 일반화하지 않음",
+      "quality": "JevBench 평가 제공. 릴리스별 모델 카드 확인, 다른 학습 실험의 점수를 대표값으로 사용하지 않음.",
+      "korean": "한국어별 평가·지원 명세 미확인",
+      "vision": "yes",
+      "sources": [
+        [
+          "실행·vision·성능",
+          "https://github.com/strands-labs/strands-decider"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+.reading-mode{display:flex;gap:8px;padding:24px 0 0;font-size:13px;flex-wrap:wrap}.article-layout .reading-mode a{padding:8px 16px;border:1px solid #dfe5df;border-radius:6px;text-decoration:none;color:#23674d}.reading-mode a[aria-current]{background:#eef2ed;font-weight:700}.reading-mode a:hover{background:#e6eee3}.article-layout .article-intro{padding-top:30px}

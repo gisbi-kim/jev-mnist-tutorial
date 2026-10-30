@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-29T17:46:43.766010+00:00",
+  "created_utc": "2026-10-30T04:25:18.257467+00:00",
   "scope": "GitHub publication: final model only, historical logs preserved",
   "files": [
     {
@@ -28,6 +28,11 @@
       "sha256": "84fc4afd5f7f4ea3b3c952d5efb70fd9f8223659beb4b2b83964b5a40ece9546"
     },
     {
+      "path": "docs/background-sources.md",
+      "bytes": 10574,
+      "sha256": "e498ee6a0b75cee987347544271d8f16779b37a94a373c5838126e4c56825f49"
+    },
+    {
       "path": "docs/browser-validation.json",
       "bytes": 2338,
       "sha256": "ce9789a656412c329c47d0faebe362c6cb569b940ddaf6c8d82369d19486aab5"
@@ -46,6 +51,11 @@
       "path": "docs/environment-snapshot.json",
       "bytes": 620,
       "sha256": "d83d92f633b28a6ec02650adbb7258eb7c68a4b993abbb870d54f8cd2748e9b7"
+    },
+    {
+      "path": "docs/model-comparison.json",
+      "bytes": 14956,
+      "sha256": "480beec00a421daf3abe8f982f8d3bf34477b4a5945e72ed0f0a6927babe059a"
     },
     {
       "path": "docs/model-download.md",
@@ -1081,6 +1091,21 @@
       "path": "site/article.css",
       "bytes": 7971,
       "sha256": "6f4d6bad74f89b4024cc0dc8b568ad3317346b3c59ec6dd9402d99af78b5e546"
+    },
+    {
+      "path": "site/background.css",
+      "bytes": 4661,
+      "sha256": "16b7fc585a4d400083aa38c7a096c513d340d1d8d724b85d2dd4e24f6e1e739e"
+    },
+    {
+      "path": "site/background.html",
+      "bytes": 73044,
+      "sha256": "6ef4208672f2e2c18dac68b8714379f477e363acc317c2344f533fd1a57d5b55"
+    },
+    {
+      "path": "site/background.js",
+      "bytes": 2168,
+      "sha256": "45c59f3bb12eb619b4fad5ac7922af934c5e3be50d4db041f58373ba25868c1c"
     },
     {
       "path": "site/data/batches/20261030-004047-batch1/1.js",
@@ -4986,6 +5011,21 @@
       "path": "site/data/test.js",
       "bytes": 3111157,
       "sha256": "79a901a114aac28dcaca558f3a41ff0d94043fadebb68a98c02792f29f2142e4"
+    },
+    {
+      "path": "site/easy.css",
+      "bytes": 7714,
+      "sha256": "97e383742efae84157561a5cdd0a46b950c0d9d8773ed4816f5f77de6fa4c0fd"
+    },
+    {
+      "path": "site/easy.html",
+      "bytes": 19473,
+      "sha256": "ea41081d5d83ec88fd7d517114965a4006d744e12f98994fd96e0f5c8d78b188"
+    },
+    {
+      "path": "site/easy.js",
+      "bytes": 2013,
+      "sha256": "ba7de9282654e647c09139356c9f99ca8f9df1a343b252130cc5d47d115fcff3"
     },
     {
       "path": "site/figures/decision-head.svg",
@@ -20004,8 +20044,13 @@
     },
     {
       "path": "site/index.html",
-      "bytes": 47979,
-      "sha256": "27c8cfb8cc5405c70d50964420cbca6cd9758ebd080ce36dd4ada45c31c7db3f"
+      "bytes": 48253,
+      "sha256": "978c49b0c75175787007720bac48aaa2ffe5d39eb88943925804374f52a76f0f"
+    },
+    {
+      "path": "site/reading-nav.css",
+      "bytes": 363,
+      "sha256": "f82f43e0ae3f4833a57d464b8fbdc6730f2702d9e80f8ab5b32c11b4e6d26e53"
     },
     {
       "path": "site/style.css",
@@ -20073,7 +20118,7 @@
       "sha256": "4158526b82d783461c3cc3a14cf5b11c2c63dd3679d88ac8433465b4c0cac8de"
     }
   ],
-  "file_count": 4014,
-  "total_bytes": 199146030,
+  "file_count": 4023,
+  "total_bytes": 199281270,
   "note": "Manifest and SHA256SUMS exclude themselves. SHA256SUMS additionally hashes manifest.json."
 }
