@@ -20044,8 +20044,8 @@
     },
     {
       "path": "site/index.html",
-      "bytes": 48253,
-      "sha256": "978c49b0c75175787007720bac48aaa2ffe5d39eb88943925804374f52a76f0f"
+      "bytes": 48531,
+      "sha256": "17b0b3b53a6dc9ed3673c41d98c75808aa335758a02995b7c7f77fa23649fd4e"
     },
     {
       "path": "site/reading-nav.css",
@@ -20119,6 +20119,6 @@
     }
   ],
   "file_count": 4023,
-  "total_bytes": 199281270,
+  "total_bytes": 199281548,
   "note": "Manifest and SHA256SUMS exclude themselves. SHA256SUMS additionally hashes manifest.json."
 }
