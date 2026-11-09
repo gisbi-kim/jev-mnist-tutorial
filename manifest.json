@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-11-09T03:47:19.641140+00:00",
+  "created_utc": "2026-11-09T04:01:46.220451+00:00",
   "scope": "GitHub publication: final model only, historical logs preserved",
   "files": [
     {
@@ -69,8 +69,8 @@
     },
     {
       "path": "docs/model-download.md",
-      "bytes": 2896,
-      "sha256": "8d09fec25da1cba6c93fab6e360c651dd883a94f63f48e7980adbaad4649dd77"
+      "bytes": 4001,
+      "sha256": "0debf93950f8846135da96b5797a32a08f712320bdba7fc790b979fa7488a3a5"
     },
     {
       "path": "docs/provenance.md",
@@ -173,6 +173,11 @@
       "sha256": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b"
     },
     {
+      "path": "raw/code/CLEF_LICENSE.txt",
+      "bytes": 11544,
+      "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a"
+    },
+    {
       "path": "raw/code/README.md",
       "bytes": 5924,
       "sha256": "89b2edbd81705e5990422964a0b6fa51b268f07ef45f5c027fac5ed217263187"
@@ -181,6 +186,16 @@
       "path": "raw/code/benchmark_batches.py",
       "bytes": 4677,
       "sha256": "f13a7d8f4997b67b2432135ea6b95d87ee58dd5a9bcda0c00be2d30ff28dfc9a"
+    },
+    {
+      "path": "raw/code/clef_manifest.json",
+      "bytes": 431,
+      "sha256": "364b86e37c3b8425b64d44013abecb8734c762d69e11d9cc5c564818ef6d0e71"
+    },
+    {
+      "path": "raw/code/clef_reference.py",
+      "bytes": 23263,
+      "sha256": "0e304cf7c6500e8bb59bef7e2afd2c6373f82596dfb3b57d1aa93c175e2dc3a3"
     },
     {
       "path": "raw/code/core.py",
@@ -219,8 +234,13 @@
     },
     {
       "path": "raw/code/model.py",
-      "bytes": 2799,
-      "sha256": "3e3532777e13ed5cafad9f416f7166c9a9f079114302b1db073c4cbe39f4cecd"
+      "bytes": 3167,
+      "sha256": "bd052cf68fd8b0765cc95e668500fd0e5c4657b0a6f4e97fdfc63decb1ab33ef"
+    },
+    {
+      "path": "raw/code/model_mps.py",
+      "bytes": 2919,
+      "sha256": "d0913d56fdf542ac94487adca99bc7682123719978b2a11f3b393c7f30f4471e"
     },
     {
       "path": "raw/code/profile_inference.py",
@@ -231,6 +251,11 @@
       "path": "raw/code/requirements-gui.txt",
       "bytes": 19,
       "sha256": "d1ebd3ca35d9c6b296d65362a34119a5c9caae88547f0796f4accdb2767e75cd"
+    },
+    {
+      "path": "raw/code/requirements-mac.txt",
+      "bytes": 108,
+      "sha256": "3d91984466b1ad2c11bcab660f2a4c395a487e2efb1ddd5f70186f7b43bc2499"
     },
     {
       "path": "raw/code/requirements-status.txt",
@@ -20144,8 +20169,8 @@
     },
     {
       "path": "tools/prepare_workspace.py",
-      "bytes": 1379,
-      "sha256": "d076638c5a5c82a2761bdd3154eb04d2667ca9aeb39bc1a7425717fee0946311"
+      "bytes": 1502,
+      "sha256": "81e96078518d8f8fff369fbc8e854fc95604a17273a7f4fb1381755d08bc5837"
     },
     {
       "path": "tools/restore_data.py",
@@ -20168,7 +20193,7 @@
       "sha256": "4158526b82d783461c3cc3a14cf5b11c2c63dd3679d88ac8433465b4c0cac8de"
     }
   ],
-  "file_count": 4033,
-  "total_bytes": 199465594,
+  "file_count": 4038,
+  "total_bytes": 199505455,
   "note": "Manifest and SHA256SUMS exclude themselves. SHA256SUMS additionally hashes manifest.json."
 }

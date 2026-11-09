@@ -1,6 +1,6 @@
 """Create a new inference/training directory without modifying archived results."""
 from pathlib import Path
-import argparse, shutil
+import argparse, shutil, json
 
 ROOT = Path(__file__).resolve().parents[1]
 FINAL = '20261030-010019'
@@ -19,6 +19,7 @@ def prepare(destination):
         if source.exists():
             shutil.copy2(source, model_root / filename)
     shutil.copy2(ROOT / 'tools/predict_saved.py', destination / 'predict_saved.py')
+    (destination / 'latest.json').write_text(json.dumps({'adapter': str(model_root / 'adapter')}), encoding='utf-8')
     print(f'Workspace ready: {destination}')
     print('No old full_test directory copied: a new evaluation will not reuse archived predictions.')
 

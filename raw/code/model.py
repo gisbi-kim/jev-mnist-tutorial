@@ -7,6 +7,14 @@ from core import ACTIONS, questions
 
 
 class DecisionEngine:
+    def __new__(cls, model_name: str, train: bool = False):
+        if not train:
+            import torch
+            if not torch.cuda.is_available() and torch.backends.mps.is_available():
+                from model_mps import DecisionEngine as MPSDecisionEngine
+                return MPSDecisionEngine(model_name, train=False)
+        return super().__new__(cls)
+
     def __init__(self, model_name: str, train: bool = False):
         os.environ.setdefault('HF_HOME', str(Path(__file__).resolve().parent / '.cache' / 'huggingface'))
         from unsloth import FastDecisionModel
