@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-11-08T18:38:48.344558+00:00",
+  "created_utc": "2026-11-09T03:47:19.641140+00:00",
   "scope": "GitHub publication: final model only, historical logs preserved",
   "files": [
     {
@@ -5053,14 +5053,29 @@
       "sha256": "ba7de9282654e647c09139356c9f99ca8f9df1a343b252130cc5d47d115fcff3"
     },
     {
+      "path": "site/figures/decision-head.en.svg",
+      "bytes": 5616,
+      "sha256": "9e5d052c9de57f5c82e4a7cd46e83ae356d2d8b02aa914cdd2306e8cab7aaec8"
+    },
+    {
       "path": "site/figures/decision-head.svg",
       "bytes": 5683,
       "sha256": "58e6b23b06ea1333bb00668ca3cb105a96546121ec80af92cc45336c589f275d"
     },
     {
+      "path": "site/figures/lora-paths.en.svg",
+      "bytes": 3285,
+      "sha256": "1b96e08511f301e09ec32b9e951e0c454b5d12b6fc9965d9f4d5dfc0fda06363"
+    },
+    {
       "path": "site/figures/lora-paths.svg",
       "bytes": 3328,
       "sha256": "bb9fbfce734e696492913059c6225993ca0d97bc9d288b739e6398415b24aebf"
+    },
+    {
+      "path": "site/figures/model-flow.en.svg",
+      "bytes": 6490,
+      "sha256": "97554b3771d22be8f5fc6c4c581c459f0667499c949e099224915e38b209469b"
     },
     {
       "path": "site/figures/model-flow.svg",
@@ -20069,8 +20084,8 @@
     },
     {
       "path": "site/index.en.html",
-      "bytes": 49448,
-      "sha256": "407d5b67c30a8190ec1eb45fab439a7aa762d1816c3dfedbf7a87c52835ba1df"
+      "bytes": 49475,
+      "sha256": "b98461f59e00d34442f4d7d0d55115644270bc6278cc97729e6ef49fa9ac90cf"
     },
     {
       "path": "site/index.html",
@@ -20153,7 +20168,7 @@
       "sha256": "4158526b82d783461c3cc3a14cf5b11c2c63dd3679d88ac8433465b4c0cac8de"
     }
   ],
-  "file_count": 4030,
-  "total_bytes": 199450176,
+  "file_count": 4033,
+  "total_bytes": 199465594,
   "note": "Manifest and SHA256SUMS exclude themselves. SHA256SUMS additionally hashes manifest.json."
 }
